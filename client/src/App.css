@@ -1,0 +1,59 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.information input{
+  width: 300px;
+  height: 25px;
+  font-size: 20px;
+  padding: left 10px; 
+}
+button{
+  width: 200px;
+  height: 25px;
+  margin-top: 15px;
+}
+.employees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  width: 50%;
+}
+
+.employee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #dee2e6;
+  padding: 1rem;
+  width: 100%;
+}
+
+.employee:last-child {
+  border-bottom: none;
+}
+
+.employee h3 {
+  margin-bottom: 0.5rem;
+}
+
+.employee p {
+  margin: 0.25rem 0;
+}
+
+.show-employees-button {
+  margin-bottom: 1rem;
+}
